@@ -64,14 +64,14 @@ h4 {
   font-family: "Oleo Script Swash Caps", cursive;
   font-size: 50px;
   color: white;
-  font-weight: lighter;
+  font-weight: 100;
 }
 
 h3 {
   font-family: "Oleo Script Swash Caps", cursive;
   font-size: 30px;
   color: white;
-  font-weight: lighter;
+  font-weight: 100;
 }
 
 .hero {
@@ -83,7 +83,7 @@ h3 {
   height: 743px;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
+  border-radius: 10px;
 }
 .hero a {
   border: 2px solid white;
@@ -108,7 +108,8 @@ h3 {
   border-radius: 10px;
 }
 .under-hero .under-hero__text {
-  border: 1px solid white;
+  border: 3px solid white;
+  border-radius: 10px;
   padding: 50px;
   margin-left: 50px;
   width: 50%;
@@ -160,7 +161,7 @@ h3 {
   justify-content: center;
   align-items: center;
   border: 1px solid black;
-  border-radius: 50%;
+  border-radius: 10px;
 }
 .under-blog h4, .under-blog h3, .under-blog a {
   color: black;
@@ -172,8 +173,8 @@ h3 {
   margin-top: 20px;
 }
 .under-blog a:hover {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

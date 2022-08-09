@@ -58,14 +58,14 @@ h4 {
     font-family: 'Oleo Script Swash Caps', cursive;
     font-size: 50px;
     color: white;
-    font-weight: lighter;
+    font-weight: 100;
 }
 
 h3 {
     font-family: 'Oleo Script Swash Caps', cursive;
     font-size: 30px;
     color: white;
-    font-weight: lighter;
+    font-weight: 100;
 }
 
 .hero {
@@ -77,7 +77,7 @@ h3 {
     height: 743px;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 10px;
     a {
         border: 2px solid white;
         padding: 15px;
@@ -101,7 +101,8 @@ h3 {
     align-items: center;
     border-radius: 10px;
     .under-hero__text {
-        border: 1px solid white;
+        border: 3px solid white;
+        border-radius: 10px;
         padding: 50px;
         margin-left: 50px;
         width: 50%;
@@ -154,7 +155,7 @@ img {
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-    border-radius: 50%;
+    border-radius: 10px;
     h4, h3, a {
         color: black;
     }
@@ -164,8 +165,8 @@ img {
             text-decoration: none;
             margin-top: 20px;
             &:hover {
-                background-color: white;
-                color: black;
+                background-color: black;
+                color: white;
      }
 }
 }
